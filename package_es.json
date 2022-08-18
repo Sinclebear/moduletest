@@ -1,0 +1,30 @@
+{
+  "name": "sinclebear-moduletest",
+  "version": "0.1.0",
+  "description": "module test & publish",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "esm": "node ./src/index_esm.js",
+    "commonjs": "node ./src/index_commonjs.js",
+    "moment": "node ./src/moment_test.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sinclebear/moduletest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sinclebear/moduletest/issues"
+  },
+  "homepage": "https://github.com/Sinclebear/moduletest#readme",
+  "dependencies": {
+    "joi": "^17.6.0",
+    "koa": "^2.13.4",
+    "koa-static": "^5.0.0",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.34"
+  }
+}
