@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "module test & publish",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
     "esm": "node ./src/index_esm.js",
     "commonjs": "node ./src/index_commonjs.js",
