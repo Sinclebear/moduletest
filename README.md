@@ -1,7 +1,7 @@
 # moduletest
 
-- commonJS 로 테스트 시 package.json 그대로 유지.
-- esm 으로 테스트 시 `"main"` 속성 값 하단에 `"type":"module"` 를 추가 입력. 
+- commonJS 로 테스트 시 `"type"` 값은 `"commonjs"` 그대로 유지. (생략 가능)
+- esm 으로 테스트 시 `"type"` 속성 값을 `"module"` 로 변경
   - package_es.json의 내용으로 전체 교체해도 됨.
 
 
